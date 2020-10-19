@@ -1,0 +1,388 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;;
+    justify-content: flex-end;
+    display: flex;
+    
+}
+
+header .navbar{
+    justify-content: flex-end;
+    display: flex;
+    padding: 0.75em;
+    font-size: 1.1em;
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+    width: 40%;
+    margin-right: 10%;
+    position: fixed;
+}
+
+header .navbar .Links{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    width: 90%;
+}
+
+header .navbar .Links a {
+    
+    text-decoration: none;  
+}
+
+.navbar .Links li{
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    color: white;
+    font: bold;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body .Hero{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+  
+}
+
+
+
+body .About{
+    display: flex;
+    background-color:#696760;
+    height: 100vh;
+    padding-top: 20px;
+    
+}
+
+.About .Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    color: white;
+   
+
+}
+
+.Info #Nombre{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10%;
+    width: 90%; 
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-right: 3px solid azure;
+    padding-bottom: 50px;
+
+}
+
+.Info #Message{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 50%;
+    width: 90%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-right: 3px solid azure;
+    line-height: 40px;
+}
+
+#Message .Relevante{
+    font: bold;
+    color: #ea8aa0;
+}
+
+
+.Skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+}
+
+#Skills_Texto{
+    text-transform: uppercase;
+    font: bold;
+    color: #ea8aa0;
+    font-size: 2.5em;
+    width: 100%;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Skills_Contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    background-color: #866d67;
+    
+}
+
+.Skills_Contenido .Primero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Skills_Contenido .Java{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.Skills_Contenido .Java img{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100px;
+ 
+}
+
+.Skills_Contenido .Java p{
+    font-size: 1.1em;
+    justify-content: center;
+    display: flex;
+    color: white;
+    line-height: 30px;
+  
+}
+
+.Skills_Contenido .Java .Experiencia #JavaExp{
+    background-color: rgb(72, 233, 72);
+    height: 100%;
+    width: 50%;
+}
+
+.Skills_Contenido .Java .Experiencia{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+.Skills_Contenido .Api{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Skills_Contenido .Api img{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100px;
+   
+}
+
+.Skills_Contenido .Api p{
+    font-size: 1.1em;
+    justify-content: center;
+    display: flex;
+    color: white;
+    line-height: 30px;
+}
+
+.Skills_Contenido .Api .Experiencia{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.Skills_Contenido .Api .Experiencia #ApiExp{
+    background-color: rgb(72, 233, 72);
+    height: 100%;
+    width: 50%;
+}
+
+.Skills_Contenido .Segundo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Skills_Contenido .C{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.Skills_Contenido .C img{
+        align-items: center;
+        display: flex;
+        height: 80px;
+        width: 80px;
+
+}
+    
+.Skills_Contenido .C p{
+        font-size: 1.1em;
+        justify-content: center;
+        display: flex;
+        color: white;
+        line-height: 30px;
+}
+
+.Skills_Contenido .C .Experiencia{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.Skills_Contenido .C .Experiencia #CExp{
+    background-color: rgb(72, 233, 72);
+    height: 100%;
+    width: 80%;
+}
+
+.Skills_Contenido .Jvr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.Skills_Contenido .Jvr img{
+        align-items: center;
+        display: flex;
+        height: 80px;
+        width: 80px;
+
+}
+
+.Skills_Contenido .Jvr .Experiencia{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.Skills_Contenido .Jvr .Experiencia #JvrExp{
+    background-color: rgb(72, 233, 72);
+    height: 100%;
+    width: 60%;
+}
+
+.Skills_Contenido .Jvr p{
+        font-size: 1.1em;
+        justify-content: center;
+        display: flex;
+        color: white;
+        line-height: 30px;
+}
+
+body .Portfolio{
+    height: 100vh;
+    width: 100%;
+    background-color: #696760;
+
+}
+
+
+body .Contact{
+    height: 100%;
+    width: 100%;
+    background-color: #696760;
+    color: white;
+}
+
+.Contact .Redes_Sociales{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Contact .Redes_Sociales img{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.Contact .Redes_Sociales figure{
+    margin: 20px;
+}
+
+.Contact .Correo #Contactame{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5em;
+    line-height: 35px;
+}
+
+.Contact .Correo form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    row-gap: 5px;
+}
+
+
+.Contact .Correo p{
+    font-size: 1.1em;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 35px;
+    width: 100%;
+}
+
+.Contact .Num_Telf p{
+    font-size: 1.1em;
+    margin-left: 15px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #A63348;
+}
+
+
+.Contact .Correo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.Correo button{
+    width: 80px;
+    border-radius: 5px;
+}
+
+.Contact .Num_Telf{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 45px;
+    margin-left: 35px;
+    margin-top: 35px;
+  
+}
+
+.Contact .Num_Telf img{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    width: 40px;
+}
+
